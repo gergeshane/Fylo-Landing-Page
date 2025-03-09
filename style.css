@@ -1,0 +1,173 @@
+/* تعيين التنسيقات العامة */
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* تنسيق الهيدر */
+.header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 5%; 
+    background-color: #fff;
+}
+
+/* تنسيق القائمة العلوية */
+.nav ul {
+    list-style: none;
+    display: flex; 
+    gap: 20px; 
+}
+
+.nav a {
+    text-decoration: none; 
+    color: black;
+}
+
+/* تنسيق القسم الأول */
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 50px 5%;
+    justify-content: space-around;
+}
+
+.hero-content {
+    max-width: 45%; 
+    }
+    .hero-content p{
+        font-size: 15px;
+    }
+.email-form1{
+      margin-top: 13px;
+display: flex;
+} 
+.email-form1 input {
+    padding: 10px;
+    width: 220px;
+    height: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.email-form1 button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:  5px;
+    width: 150px;
+    }
+    .p{
+        font-size: 10px;
+        opacity: 0.5; 
+    }
+.email-form {
+    margin-top: 13px;
+    padding: 10px 1%;
+    padding-left: 220px;
+}
+
+/* تنسيق نموذج البريد */
+.email-form input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.email-form p{
+    font-size: 10px;
+    opacity: 0.5; 
+}
+/* زر التسجيل */
+.email-form button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* تنسيق القسم الثاني */
+.features {
+    padding: 20px 5%;
+    background-color: #f8f8f8; 
+display: flex;
+justify-content: space-around;
+}
+.featuresimg{
+    width: 55vh;
+    height: auto;
+    margin-left: 300px;
+}
+.img1{
+    margin: -38px;
+    padding-left: 37px;
+    width: 100%;
+    height: 100%;
+}
+/* تنسيق قسم التوصيات */
+.testimonial {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 300px;
+    height: 150px;
+}
+
+/* تنسيق القسم الثالث */
+.cta {
+    background-color: #4a4a8c;
+    color: white;
+    padding: 50px 5%;
+display:flex;
+}
+
+
+
+/* تنسيق الفوتر */
+.footer {
+    background-color: #0b0b28;
+    color: white;
+    padding: 30px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* تنسيق الروابط في الفوتر */
+.footer-links a,
+.footer-social a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    }
+    .clint{
+        display: flex;
+    }
+    .clintimg{
+        width: 6vh;
+        height: auto;
+        border-radius: 50%;
+        }
+        .nameclint{
+            font-weight: bold;
+    margin: 0px;
+        }
+    .tclint{
+        font-size: 9px;
+    opacity: .5;
+    }
+    .dataclint{
+        margin-left: 5px;
+    }
+    .learn-more{
+        color: rgba(22, 117, 101, 0.521);
+    display:flex;
+    }
