@@ -33,7 +33,7 @@ margin: 0;
     align-items: center;
     padding: 50px 5%;
     justify-content: space-around;
-    height: 350px;
+    height: 450px;
 }
 
 .hero-content {
@@ -99,9 +99,9 @@ max-width: 90%;
 height: 450px;
 }
 .featuresimg{
-    width: 100vh;
+    width: 80vh;
     height: auto;
-    margin-left: 240px;
+    margin-left: 150px;
 }
 .img1{
     margin: -38px;
@@ -146,6 +146,9 @@ height: 160px;
     justify-content: space-between;
     max-width: 90%;
 }
+.footer-logo-div2{
+    padding: 20px 0px;
+}
 
 /* تنسيق الروابط في الفوتر */
 .footer-links a,.footer-sociall a {
@@ -167,6 +170,7 @@ height: 160px;
     }
     .clint{
         display: flex;
+        margin-top: 15px;
     }
     .clintimg{
         width: 6vh;
@@ -199,7 +203,7 @@ nav{
      .hero{
   flex-direction: column-reverse;
   text-align: center;
-  height: 550px;
+  height: 700px;
 }
 
 
