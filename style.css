@@ -1,9 +1,7 @@
 /* تعيين التنسيقات العامة */
-body {
+* {
     font-family: Arial, sans-serif; 
-    margin: 0; 
     padding: 0;
-    box-sizing: border-box; 
 }
 
 /* تنسيق الهيدر */
@@ -34,6 +32,7 @@ body {
     align-items: center;
     padding: 50px 5%;
     justify-content: space-around;
+    height: 350px;
 }
 
 .hero-content {
@@ -86,7 +85,7 @@ display: flex;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 /* تنسيق القسم الثاني */
@@ -96,11 +95,12 @@ display: flex;
 display: flex;
 justify-content: space-around;
 max-width: 90%;
+height: 450px;
 }
 .featuresimg{
-    width: 55vh;
+    width: 100vh;
     height: auto;
-    margin-left: 300px;
+    margin-left: 240px;
 }
 .img1{
     margin: -38px;
@@ -122,7 +122,7 @@ max-width: 90%;
     border-radius: 10px;
     margin-top: 20px;
     width: 300px;
-    height: 150px;
+    height: 170px;
 }
 
 /* تنسيق القسم الثالث */
@@ -131,6 +131,7 @@ max-width: 90%;
     color: white;
     padding: 50px 5%;
 display:flex;
+height: 160px;
 }
 
 
@@ -139,19 +140,29 @@ display:flex;
 .footer {
     background-color: #0b0b28;
     color: white;
-    padding: 30px 5%;
+    padding: 60px 5%;
     display: flex;
     justify-content: space-between;
     max-width: 90%;
 }
 
 /* تنسيق الروابط في الفوتر */
-.footer-links a,
-.footer-social a {
+.footer-links a,.footer-sociall a {
     display: block;
     color: white;
     text-decoration: none;
     padding: 10px 10px;
+    width: 40px;
+    height: 40px;
+    }
+    .footer-social img{
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        padding: 10px 10px;
+    }
+    .footer-social{
+        display: flex;
     }
     .clint{
         display: flex;
@@ -187,12 +198,14 @@ nav{
      .hero{
   flex-direction: column-reverse;
   text-align: center;
+  height: 550px;
 }
 
 
 
 .features{
     flex-direction: column-reverse;
+    height: 700px;
 
 }
 .email-form1{
@@ -215,6 +228,7 @@ nav{
     .cta{
         display: block;
         text-align: center;
+        height: 220px;
     }
 .footer{
     display: block;
@@ -225,5 +239,11 @@ nav{
 .img1{
     display: none;
 }
-
+.footer-social{
+    align-items: center;
+    justify-content: center;
+}
+.email-form1 button{
+    margin-top: 15px;
+}
     }
